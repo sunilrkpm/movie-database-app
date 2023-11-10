@@ -1,0 +1,133 @@
+.single-movie-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #333545;
+}
+.image-container {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  margin: 15px;
+}
+.movie-content-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.single-movie-icon {
+  height: 60vh;
+  border-radius: 10px;
+}
+.movie-title {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.movie-rating {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.like-icon {
+  height: 25px;
+  width: 25px;
+  margin-bottom: 5px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.release-date {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  align-self: center;
+}
+
+.overview {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.genre-container {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.runtime {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-right: 8px;
+}
+.genre-list-item {
+  list-style-type: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-right: 8px;
+}
+
+.cast-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px;
+
+  background-color: #333545;
+}
+
+@media screen and (min-width: 576px) {
+  .single-movie-icon {
+    height: 60vh;
+  }
+  .single-movie-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .movie-title {
+    font-size: 35px;
+  }
+  .movie-rating {
+    font-size: 22px;
+  }
+  .like-icon {
+    height: 30px;
+    width: 30px;
+  }
+  .rating-container {
+    width: 130px;
+  }
+  .release-date {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .single-movie-icon {
+    height: 80vh;
+  }
+  .movie-title {
+    font-size: 40px;
+  }
+  .movie-rating {
+    font-size: 25px;
+  }
+  .like-icon {
+    height: 45px;
+    width: 45px;
+    margin-bottom: 10px;
+  }
+  .rating-container {
+    width: 150px;
+  }
+}

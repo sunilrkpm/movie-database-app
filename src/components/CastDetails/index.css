@@ -1,0 +1,39 @@
+.cast-item-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 38%;
+}
+.profile-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.cast-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 12px;
+}
+.character-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 12px;
+}
+@media screen and (min-width: 576px) {
+  .cast-item-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cast-item-container {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+  }
+}
